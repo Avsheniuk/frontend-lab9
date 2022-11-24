@@ -1,0 +1,48 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.player-block{
+	width: auto;
+	display: inline-block;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+.card {
+    width: 100px;
+}
+
+#main{
+	padding: 10px;
+	margin: 0 auto;
+	text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.player-block .name {
+    font-size: 1.5em;
+}
+
+.player-block .points {
+	background-color: aqua;
+	border-radius: 7px;
+	width: 150px;
+	margin: 7px auto;
+	height: 1.5em;
+	line-height: 1.5em;
+}
+
+#generate {
+	height: 1.5em;
+	width: 150px;
+	line-height: 1.5em;
+	font-size: 1.1em;
+	background-color: greenyellow;
+	display: inline-block;
+}
